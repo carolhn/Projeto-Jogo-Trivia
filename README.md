@@ -1,7 +1,13 @@
-# Projeto de Trivia!
+# 🕹️ Projeto de Trivia!
+
+<img src="https://github.com/carolhn/Projeto-Jogo-Trivia/blob/main/imagem1.png" alt="imagem.png" style="max-width: 60%;">
+<br>
+<img src="https://github.com/carolhn/Projeto-Jogo-Trivia/blob/main/imagem2.png" alt="imagem2.png" style="max-width: 60%;">
+<br>
+<img src="https://github.com/carolhn/Projeto-Jogo-Trivia/blob/main/imagem3.png" alt="imagem2.png" style="max-width: 60%;">
 
 
-# ✏️  Esse projeto tem objetivo de:
+## ✏️  Esse projeto tem objetivo de:
 
   - Criar um store Redux em aplicações React
 
@@ -33,5 +39,5 @@
     - `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
 </details>
 
-# Autores:
+## Autores:
 Esse projeto foi desenvolvido em grupo composto por:
