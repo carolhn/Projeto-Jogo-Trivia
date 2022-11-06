@@ -39,5 +39,5 @@
     - `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
 </details>
 
-## Autores:
+## 👥️ Autores:
 Esse projeto foi desenvolvido em grupo composto por:
