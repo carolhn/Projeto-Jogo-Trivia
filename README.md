@@ -1,4 +1,4 @@
-# 🕹️ Projeto de Trivia!
+# 🕹️ Projeto Jogo Trivia!
 
 <img src="https://github.com/carolhn/Projeto-Jogo-Trivia/blob/main/imagem1.png" alt="imagem.png" style="max-width: 60%;">
 <br>
