@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@1&display=swap') ;
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap') ;
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap') ;
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap') ;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/2384075.jpg');
+  background-size: cover;
+}
+
+.form-login {
+  background-color: rgb(86, 79, 87);
+  background-image: url('https://pa1.narvii.com/6506/d61c5a4afc47044ba3cc381bbdb64369f01ab619_hq.gif');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: absolute;
+  width: 530px;
+}
+
+.img {
+  left: 18%;
+  margin-top: 12%;
+  position: absolute;
+  width: 60%;
+}
+
+.inputNome {
+  background-color: white;
+  border: 3px solid rgba(71, 71, 71, 0.219);
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+  height: 45px; /* comprimento linha */
+  left: 15%; /* lado direito */
+  line-height: 14px;
+  position: absolute;
+  top: 39%; /* baixo */
+  width: 360px; /* lardura da linha */
+}
+
+.input-email {
+  background-color: white;
+  border: 3px solid rgba(71, 71, 71, 0.219);
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+  height: 45px;
+  left: 15%;
+  line-height: 14px;
+  position: absolute;
+  top: 48%;
+  width: 360px;
+}
+
+.button-login {
+  background-color: rgb(163, 160, 160, 0.897);
+  border-radius: 3px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.493);
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  height: 45px;
+  left: 14%;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 62%;
+  width: 360px;
+}
+
+.button-login:hover {
+  background-color: rgb(36, 36, 36);
+}
+
+.login-btn:disabled {
+  background-color: rgba(255, 255, 255, 0.753);
+  box-shadow: none;
+  color: rgba(116, 116, 116, 0.897);
+  cursor: default;
+}
+
+.button-config {
+  background-color: rgb(163, 160, 160, 0.897);
+  border-radius: 3px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.493);
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  height: 45px;
+  left: 14%;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 71%;
+  width: 360px;
+}
+
+.button-config:hover {
+  background-color: rgb(36, 36, 36);
+}
+
+/* ____________________page GAME________ */
+.header {
+  align-items: center;
+  background-color: rgb(36, 36, 36);
+  border-radius: 3px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.493);
+  color: white;
+  display: flex;
+  font-family: Abel , sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  height: 90px;
+  justify-content: space-around;
+}
+
+.imgProfile {
+  border-radius: 50%;
+  width: 70px;
+}
+
+.button-home {
+  background-color: rgb(163, 160, 160, 0.897);
+  border-radius: 9px;
+  box-shadow: -4px 9px 13px rgba(246, 249, 250, 0.3);
+  color: rgb(236, 236, 236);
+  font-family: Abel , sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  height: 45px;
+  transition-duration: 0.4s;
+  width: 80px;
+}
+
+.button-home:hover {
+  background-color: black;
+  color: white;
+}
+
+.button-ranking {
+  background-color: rgb(163, 160, 160, 0.897);
+  border-radius: 9px;
+  box-shadow: -4px 9px 13px rgba(246, 249, 250, 0.3);
+  color: rgb(236, 236, 236);
+  font-family: Abel , sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  height: 45px;
+  margin: 15px;
+  transition-duration: 0.4s;
+  width: 90px;
+}
+
+.button-ranking:hover {
+  background-color: black;
+  color: white;
+}
+
+/* _________________game_____________________ */
+.wrong-answer {
+  background-color: red;
+  border: 3px solid red;
+  color: white;
+  cursor: default;
+}
+
+.correct-answer {
+  background-color: rgb(6, 240, 15);
+  border: 3px solid rgb(6, 240, 15);
+  color: white;
+  cursor: default;
+}
+
+.game {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timer {
+  color: rgb(36, 36, 36);
+  display: flex;
+  flex-direction: row;
+  font-family: Quantico , sans-serif;
+  font-size: 70px;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.category {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  display: flex;
+  font-family: Alegreya , serif;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.question {
+  font-family: Alegreya , serif;
+  font-size: 25px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.alternatives {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+button {
+  background-color: rgb(36, 36, 36);
+  border: none;
+  color: white;
+  font-family: Alegreya , serif;
+  font-size: 20px;
+  margin: 10px;
+  padding: 8px;
+  width: 95%;
+}
