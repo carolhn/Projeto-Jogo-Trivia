@@ -40,4 +40,7 @@
 </details>
 
 ## 👥️ Autores:
-Esse projeto foi desenvolvido em grupo composto por:
+Projeto em grupo realizado por:
+
+- [Júlio César](https://github.com/julio-silveira)
+- [Ramila](https://github.com/Ramila2022)
