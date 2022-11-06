@@ -42,5 +42,5 @@
 ## 👥️ Autores:
 Projeto em grupo realizado por:
 
-- [Júlio César](https://github.com/julio-silveira)
-- [Ramila](https://github.com/Ramila2022)
+- [Júlio César Silveira](https://github.com/julio-silveira)
+- [Ramila Cabral](https://github.com/Ramila2022)
