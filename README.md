@@ -45,3 +45,4 @@ Projeto em grupo realizado por:
 - [Caroline Nunes](https://github.com/carolhn)
 - [Júlio César Silveira](https://github.com/julio-silveira)
 - [Ramila Cabral](https://github.com/Ramila2022)
+- [Silvio Adriano](https://github.com/silvioadrianno)
