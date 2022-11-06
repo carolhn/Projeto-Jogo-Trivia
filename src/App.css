@@ -85,13 +85,6 @@ body {
   background-color: rgb(36, 36, 36);
 }
 
-.login-btn:disabled {
-  background-color: rgba(255, 255, 255, 0.753);
-  box-shadow: none;
-  color: rgba(116, 116, 116, 0.897);
-  cursor: default;
-}
-
 .button-config {
   background-color: rgb(163, 160, 160, 0.897);
   border-radius: 3px;
@@ -239,3 +232,25 @@ button {
   padding: 8px;
   width: 95%;
 }
+
+/*_________________feedback ____________*/
+.container-feedback {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+  line-height: 45px;
+}
+
+.h1-feedback {
+  font-size: 25px;
+}
+
+.btn-feedback {
+ width: 25%;
+}
+
+.btn-feedback:hover {
+  background-color: rgba(36, 36, 36, 0.178);
+ }

@@ -32,22 +32,27 @@ class Feedback extends React.Component {
           handleButton={ this.handleButton }
           disableButtons={ disableButtons }
         />
-        <h1 data-testid="feedback-text">
-          { assertions >= acertos ? 'Well Done!' : 'Could be better...'}
-        </h1>
-        <div>
-          <p data-testid="feedback-total-question">{ assertions }</p>
-          <p data-testid="feedback-total-score">{ score }</p>
+        <div className="container-feedback">
+          <h1 data-testid="feedback-text" className="h1-feedback">
+            { assertions >= acertos ? 'Well Done!' : 'Could be better...'}
+          </h1>
+
+          <div>
+            <p className="h1-feedback" data-testid="feedback-total-question">{ assertions }</p>
+            <p className="h1-feedback" data-testid="feedback-total-score">{ score }</p>
+          </div>
+          <div className="btn-feedback">
+            <button
+              value="/"
+              type="button"
+              onClick={ this.handleButton }
+              data-testid="btn-play-again"
+              disabled={ disableButtons }
+            >
+              Play Again
+            </button>
+          </div>
         </div>
-        <button
-          value="/"
-          type="button"
-          onClick={ this.handleButton }
-          data-testid="btn-play-again"
-          disabled={ disableButtons }
-        >
-          Play Again
-        </button>
       </section>
     );
   }
