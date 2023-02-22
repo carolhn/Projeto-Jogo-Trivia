@@ -7,37 +7,37 @@
 <img src="https://github.com/carolhn/Projeto-Jogo-Trivia/blob/main/imagem3.png" alt="imagem2.png" style="max-width: 60%;">
 
 
-## ✏️  Esse projeto tem objetivo de:
+## Habilidades:
 
-  - Criar um store Redux em aplicações React
+* Criar um `store` Redux em aplicações React
 
-  - Criar reducers no Redux em aplicações React
+* Criar `reducers` no Redux em aplicações React
 
-  - Criar actions no Redux em aplicações React
+* Criar `actions` no Redux em aplicações React
 
-  - Criar dispatchers no Redux em aplicações React
+* Criar `dispatchers` no Redux em aplicações React
 
-  - Conectar Redux aos componentes React
+* Conectar `Redux` aos `componentes` React
 
-  - Criar actions assíncronas na sua aplicação React que faz uso de Redux.
+* Criar `actions assíncronas` na sua aplicação React que faz uso de Redux.
 
-  - Escrever testes para garantir que sua aplicação possua uma boa cobertura de testes.
+* Escrever testes para garantir que sua aplicação possua uma boa cobertura de testes.
 
-<details>
-  <summary><strong>‼️ Desenvolvimento:</strong></summary><br />
-  1. Clone o repositório
+## Instalação:
+Para rodar a aplicação em sua maquina.
 
-  - Use o comando: `git clone git@github.com:carolhn/Projeto-Jogo-Trivia.git`.
-  - Entre na pasta do repositório que você acabou de clonar:
-    - `cd Projeto-Jogo-Trivia.git`
+1. Clone o repositorio. Use o comando:</br>
+  <code>git clone git@github.com:carolhn/Projeto-Jogo-Trivia.git</code></br>
   
-  2. Instale as dependências e inicialize o projeto
+2. Entre na pasta do repositório que você acabou de clonar:</br>
+<code>cd Projeto-Jogo-Trivia</code>
 
-  - Instale as dependências:
-    - `npm install`
-  - Inicialize o projeto:
-    - `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
-</details>
+3. Instale as dependências</br>
+<code>npm install</code>
+
+4. Comando para executar o app</br>
+<code>npm start</code>
+
 
 ## 👥️ Autores:
 Projeto em grupo realizado por:
