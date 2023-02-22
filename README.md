@@ -6,6 +6,9 @@
 <br>
 <img src="https://github.com/carolhn/Projeto-Jogo-Trivia/blob/main/imagem3.png" alt="imagem2.png" style="max-width: 60%;">
 
+## Contexto do projeto:
+
+Neste projeto foi desenvolvido um jogo de perguntas e respostas baseado no jogo Trivia utilizando React e Redux, desenvolvendo em grupo suas funcionalidades de acordo com as demandas definidas em um quadro Kanban.
 
 ## Habilidades:
 
